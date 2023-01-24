@@ -66,15 +66,10 @@ export const loginHandler = async (
       });
     }
 
-    if (user.provider === "Google") {
+    if (user.provider === "Google" || user.provider === "GitHub") {
       return res.status(401).json({
         status: "fail",
-        message: "Use Google OAuth2 instead",
-      });
-    } else if (user.provider === "GitHub") {
-      return res.status(401).json({
-        status: "fail",
-        message: "Use GitHub OAuth instead",
+        message: `Use ${user.provider} OAuth2 instead`,
       });
     }
 
