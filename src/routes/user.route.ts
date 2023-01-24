@@ -7,7 +7,6 @@ const router = express.Router();
 
 router.use(deserializeUser, requireUser);
 
-// Get my info route
 router.get("/me", getMeHandler);
 
 export default router;
