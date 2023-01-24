@@ -66,7 +66,7 @@ export const loginHandler = async (
       });
     }
 
-    if (user.provider === "Google" || user.provider === "GitHub") {
+    if (user.provider === "Google") {
       return res.status(401).json({
         status: "fail",
         message: `Use ${user.provider} OAuth2 instead`,
