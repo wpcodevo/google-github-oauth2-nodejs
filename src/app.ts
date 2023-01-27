@@ -31,7 +31,7 @@ app.use("/api/sessions", sessionRouter);
 app.get("/api/healthChecker", (req: Request, res: Response) => {
   res.status(200).json({
     status: "success",
-    message: "Implement OAuth in Node.js",
+    message: "How to Implement GitHub OAuth in Node.js",
   });
 });
 
