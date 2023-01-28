@@ -1,4 +1,6 @@
-# In these articles, you'll learn how to implement Google and GitHub OAuth in Node.js applications.
+# How to Implement GitHub and Google OAuth in Node.js and Express
+
+In these articles, you'll learn how to implement Google and GitHub OAuth in Node.js applications.
 
 ## How to Implement Google OAuth2 in Node.js
 
