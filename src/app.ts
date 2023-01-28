@@ -28,7 +28,7 @@ app.use("/api/users", userRouter);
 app.use("/api/auth", authRouter);
 app.use("/api/sessions", sessionRouter);
 
-app.get("/api/healthChecker", (req: Request, res: Response) => {
+app.get("/api/healthchecker", (req: Request, res: Response) => {
   res.status(200).json({
     status: "success",
     message: "How to Implement GitHub OAuth in Node.js",
